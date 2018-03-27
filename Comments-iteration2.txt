@@ -1,0 +1,9 @@
+Group 21,
+
+Overall, your Iteration 2 submission is quite good.  You seem to have answered most of our questions and fulfilled the requirements of the document.  My biggest concern is that, as mentioned in your previous comments, you don't have a passive searching use case.  Since this is your claim to novelty, it should really be addressed.
+
+Your UI class diagram is quite thorough, but you don't need every listener type to appear.  The point of design documentation is to clarify design.  We get that you're using the Observer pattern -- quite a lot, actually -- but you don't have to roll that out everywhere.  Take a look at UML comment syntax.
+
+In general, however, keep up the good work; this is looking promising!  :)
+
+Iteration 2 Grade: 97

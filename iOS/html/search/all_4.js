@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['getdesc',['getDesc',['../interface_item.html#aa4fce653326177867b6fea7a4c787bca',1,'Item']]],
+  ['getimage',['getImage',['../interface_item.html#a127d4ae3f62270252b53c3044364ac1a',1,'Item']]],
+  ['getimageid',['getImageID',['../interface_item.html#ad090e4ddcd12ad43793920d915566829',1,'Item']]],
+  ['getinventory',['getInventory',['../interface_user.html#a3fa0a60b84d405342a5e31d3d868f4c1',1,'User']]],
+  ['getinventoryitems',['getInventoryItems',['../interface_inventory.html#a90a647657661d005fd7d158ec4f11b31',1,'Inventory']]],
+  ['getitem_3a',['getItem:',['../interface_inventory.html#ae3b6f9a7498c11ec2e4c04edc2fc64b4',1,'Inventory::getItem:()'],['../interface_wishlist.html#a10292cdda16d8878f2e8dc7821f2a0f7',1,'Wishlist::getItem:()']]],
+  ['getlocation',['getLocation',['../interface_user.html#a6524497a70727bc91fb43d1869a2b3aa',1,'User']]],
+  ['getmodel',['getModel',['../interface_shuq_model.html#a2ab0862141e9b55f4f7d1a1345c5ae2e',1,'ShuqModel']]],
+  ['getname',['getName',['../interface_item.html#aada49121160e9034668bb9ab0697eb54',1,'Item']]],
+  ['getpath',['getPath',['../interface_item.html#a515a7b9c751cadb89515912151dcdffd',1,'Item']]],
+  ['getprimaryuser',['getPrimaryUser',['../interface_shuq_model.html#a8a20994e09b08b1cecbbfcd6a5abef95',1,'ShuqModel']]],
+  ['gettagname',['getTagName',['../interface_tag.html#a78c07df8bc2203fbf7e8963c99818089',1,'Tag']]],
+  ['gettags',['getTags',['../interface_item.html#a99ebe84f72f8e6f01c374042361b7c7f',1,'Item']]],
+  ['getuniqueid',['getUniqueID',['../interface_user.html#a2d9c6440c944be3b9bf01192ca9df868',1,'User']]],
+  ['getusername',['getUsername',['../interface_user.html#a36cb565f4b0ffea80faeed8515bccf92',1,'User']]],
+  ['getusers',['getUsers',['../interface_shuq_model.html#a5f1f4e3de5825019b20d0114f7598eae',1,'ShuqModel']]],
+  ['getvalue',['getValue',['../interface_item.html#ae2c82cafc03251fca8f4337efb903265',1,'Item']]],
+  ['getwishlist',['getWishlist',['../interface_user.html#a7608aa47a7d1541a4bca587d3455cd23',1,'User']]],
+  ['getwishlistitems',['getWishlistItems',['../interface_wishlist.html#a295c4abe613b46c9f0f70731c4b1f8e5',1,'Wishlist']]]
+];

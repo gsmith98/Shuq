@@ -1,0 +1,9 @@
+Group 21,
+
+Your presentation went pretty well.  You had good energy for your presentation, but try to make sure that you don't detract too much from limited presentation time with amusing examples -- 10 minutes isn't a lot.  Overall, you had a solid discussion of the purpose and goal of the application; you definitely hit the purpose of an overview on the head.
+
+It was good to see that you had a UML diagram, but it wasn't legible on the projector; try to simplify UML diagrams by removing classes, methods, and attributes which aren't necessary for the purpose of the presentation.
+
+You had a good Q&A, too.  My largest complaint about the entire presentation is really just that you weren't ready to present at your start time.  Make sure you have the right equipment for the final.  :)
+
+Total Score: 92/100

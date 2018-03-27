@@ -1,0 +1,50 @@
+{
+	"username" : "Graham",
+	"userID"   : "1",
+	"location" : "Standing",
+	"password" : "5138008",
+
+	"wishlist" : { 
+		"items" : 
+			{
+				"item1487a5": {
+					"name" : "Dildo", 
+					"taglist" : 
+					{
+						"tag10486s" : "Black",
+						"tag98e5dg" : "Large"
+					}
+				},
+
+                                "item49576d" :
+				{
+					"name" : "Frisbee",
+					"taglist" : {}
+				}
+			}
+	},
+
+	"inventory" : {
+		"items" : 
+			{
+				"item8745sa96": {
+					"name" : "Charizard", 
+					"album" : 
+					{
+					    "photoURI745sa8" : "charzard69jpg"
+                                            "photoURIa85d78" : "anotheranglejpg"
+					},
+					"value" : 10, 
+					"taglist" : 
+					{
+						"tag86s45" : "erotica"
+					}, 
+					"description" : "This majestic beast has fire in his loins"
+				}
+			}
+	},
+
+	"settings" : {
+		"privacy" : 3
+	}
+}

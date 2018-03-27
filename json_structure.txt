@@ -1,0 +1,32 @@
+
+User Database JSON Format
+{
+	"username" : String, 
+	"userID"   : Int,
+	"location" : String,
+	"password" : Hash,
+	
+	"wishlist" : {
+		"items" : [{"name" : String, "taglist" : [{"tagname" : String}] }]
+	}
+
+	"inventory" : {
+		"items" : [{"name" : String, "album" : [{"picture" : Picture}], "value" : Int, "taglist" : [{"tagname" : String}], "description" : String }]
+	}
+
+	"settings" : {
+		"privacy" : Int
+	}
+
+}
+
+Conversation Database JSON Format
+{
+	"userOne" : Int //userID
+	"userOneUserName" : String
+	"userTwo" : Int //userID
+	"userTwoUserName" : String
+
+	"messages" :
+		[{"text" : String, "userName" : String, "number" : Int}]	//might have to figure out ordering system later
+}

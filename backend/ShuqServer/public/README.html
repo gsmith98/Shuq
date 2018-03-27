@@ -1,0 +1,44 @@
+<h1><strong>shuq express pages README</strong></h1>
+
+<p>&nbsp;</p>
+
+<p><strong>How to use:</strong></p>
+
+<ol>
+	<li><strong>Setup:&nbsp;</strong>
+
+	<ol>
+		<li>(Assuming you have our latest files, woking mongodb, node modules, curl, etc. If you are missing something, install it. &quot;npm install&quot; or &quot;npm update&quot;&nbsp;is a good start for the node modules.)</li>
+		<li><strong>​</strong>Open a terminal window and run your mongodb server -&gt; &quot;sudo mongod&quot; on unix systems.</li>
+		<li>Open a second terminal window and navigate to Shuq/backend/ShuqServer. Run &quot;node index.js&quot;.</li>
+		<li>Open a third terminal window. You can use this window to execute curl commands as explained below. The other 2 windows should be left running.</li>
+	</ol>
+	</li>
+	<li><strong>Navigation:</strong>
+	<ol>
+		<li><strong>​</strong>(Assuming express is running locally on port 3000).&nbsp;</li>
+		<li>In a browser of your choice, navigate to &quot;localhost:3000&quot; to view our express splash page and &quot;localhost:3000/README.html&quot; to view this page.</li>
+		<li>Navigate to &quot;localhost:3000/&lt;collection&gt;&quot; where &quot;&lt;collection&gt;&quot; is replaced with the name of some mongodb collection&nbsp;in order to view that collection laid out in a table by express.</li>
+		<li>Navigate to &quot;localhost:3000/&lt;collection&gt;/&lt;entity&gt;&quot;, where &quot;&lt;collection&gt;&quot; is a collection name and &quot;&lt;entity&gt;&quot; is an _id of an entry in that collection, to view a representation of that entry&#39;s&nbsp;Json.</li>
+	</ol>
+	</li>
+	<li><strong>The curl commands:</strong>
+	<ol>
+		<li><strong>​</strong>Post a new entry to a collection:&nbsp;<em>curl -H &quot;Content-Type: application/json&quot; -X POST -d &lt;json&gt; http://localhost:3000/&lt;collection&gt;</em></li>
+		<li>Replace an entry in a collection:&nbsp;<em>curl -H &quot;Content-Type: application/json&quot; -X PUT -d &lt;json&gt; http://localhost:3000/&lt;collection&gt;/&lt;entity&gt;</em></li>
+		<li>Delete an entry from&nbsp;a collection:&nbsp;<em>curl -H &quot;Content-Type: application/json&quot; -X DELETE&nbsp;http://localhost:3000/&lt;collection&gt;/&lt;entity&gt;</em></li>
+	</ol>
+	</li>
+	<li><strong>Using the curl commands:</strong>
+	<ol>
+		<li><strong>​</strong>In each of the commands above, &quot;&lt;collection&gt;&quot; stands for the name of the desired&nbsp;collection. In the case of POST, that collection need not exist yet.</li>
+		<li>In each of the commands above, &quot;&lt;entity&gt;&quot; stands for the _id of the desired&nbsp;entry in the specified collection.</li>
+		<li>In each of the commands above, &lt;json&gt; stands either for an explicit json wrapped in single quotes (e.g. &#39;{&quot;title&quot;: &quot;test&quot;}&#39;)&nbsp;, or the&nbsp;filename of a file which contains a json, preceded by an @ and wrapped in single quotes (e.g. &#39;@testJson&#39;).
+		<ol>
+			<li>The column names of the collection page are determined by the first&nbsp;json&nbsp;added to it. If you put jsons of different kinds in the same collection or if you rearrange the order of fields of jsons in the same collection, the table columns may not be correct for these entries.</li>
+			<li>An _id and created_at field are automatically assigned to the json. You can specify either of these yourself, but it may change the order the json&#39;s fields would otherwise show up in, and therefore the tables may have information in the wrong columns. (In the future we seek to make specifying an _id more convenient.)</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+</ol>

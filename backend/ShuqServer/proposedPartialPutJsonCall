@@ -1,0 +1,44 @@
+
+A partial put call is made by calling PUT to partial/collection/id
+
+See newProposedJson to further understand the below paths, etc.
+
+Format examples of object passed (changes can be listed in the order they were made):
+
+{
+	"changes" :
+	[
+		{
+			"type" : "add",
+			"path" : "wishlist.items.item1487a5.taglist",
+			"propertyName" : "tag74d651",
+			"propertyValue" : "Bumpy"
+		},
+
+		{
+			"type" : "add",
+			"path" : "wishlist.items",
+			"propertyName" : "item9fd76",
+			"propertyValue" : { *an item object* }
+		},
+
+		{
+			"type" : "remove",
+			"path" : "wishlist.items",
+      "propertyName" : "item49576d"
+		}
+
+		{
+			"type" : "replace",
+			"path" : "inventory.items.item8745sa96.album.photoURI745sa8",
+			"propertyValue" : "differentcharizardURI"
+		},
+
+		{
+			"type" : "replace",
+			"path" : "location",
+			"propertyValue" : "Philly"
+		}
+	]
+}
+

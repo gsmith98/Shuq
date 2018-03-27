@@ -1,0 +1,3 @@
+README:
+
+We ran the iOS code using Xcode on a Mac and running an iPhone simulator. To run the program, go to Product -> Run, or press command+R. To run the unit tests, go to Product -> Test, or press command+U. The unit tests are located in the ShuqTests directory in the ShuqModelTests.m file.

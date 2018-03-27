@@ -1,0 +1,15 @@
+//@fileoverview this jade file specifies the format of express pages for collections.
+    Note that the column names and order are taken from the first element in the collection.
+    @param collection the collection name typed
+    @param objects the objects gotten from that collection
+body
+    h1= collection
+    #objects
+        table(border=1)
+          if objects.length > 0
+              - each val, key in objects[0]
+                  th= key
+          - each obj in objects
+            tr.obj
+              - each val, key in obj
+                td.key= val

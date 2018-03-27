@@ -1,0 +1,41 @@
+{
+	"username" : "Joe",
+	"_id"      : "Joe",
+	"location" : "11111",
+	"password" : "51438008",
+        "contact"  : "6102566599",
+
+	"wishlist" : { 
+		"items" : 
+			[
+				{
+					"name" : "Jacket", 
+					"tags" : ["Black", "Large"]
+				},
+				{
+					"name" : "Frisbee",
+					"tags" : []
+				}
+			]
+	},
+
+	"inventory" : {
+		"items" : 
+			[
+				{
+					"name" : "Charizard", 
+					"album" : 
+					[
+						{"URI" : "charzard69jpg"}
+					],
+					"value" : 10, 
+					"tags"  : ["card"], 
+					"description" : "Holographic rare"
+				}
+			]
+	},
+
+	"settings" : {
+		"privacy" : 3
+	}
+}
