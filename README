@@ -1,4 +1,0 @@
-README:
-
-Changes to the application since the presentation:
-The main feature that we added is that we now require a internet connection and check the connection any server requests. The user will be notified if they open the application in airplane mode. And the checks before each individual server call will allow he application to not crash if the user looses internet contection at some point. To accomplish this, we used the Reachibility API from apple.
